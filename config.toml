@@ -1,0 +1,8 @@
+baseURL = "https://www.bootstrapthemes.io/"
+languageCode = "en-us"
+title = "Bootstrap Themes"
+theme = "hugo_theme_robust"
+
+[permalinks]
+  admin-templates = "/:section/:filename/"
+  website-templates = "/:section/:filename/"

@@ -1,0 +1,181 @@
+/* Base */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: .875rem;
+  font-weight: 400;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+/* Site header */
+
+/* Site footer */
+.l-footer {
+  padding: 1.5rem;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Blog listing page */
+article.li {
+  height: auto;
+}
+
+article.li .thumb {
+  height: auto;
+  padding-top: 75%;
+}
+
+article.li .title {
+  height: 3rem;
+}
+
+article.li .summary {
+  height: 2.25rem;
+  margin-top: .75rem;
+  font-size: inherit;
+  line-height: 1rem;
+}
+
+/* Blog detail page */
+article.sn {
+  margin-bottom: 2rem;
+}
+
+article.sn .thumb {
+  height: auto;
+  padding-top: 75%;
+}
+
+/* Blog detail tags */
+section.footer > header {
+  margin: 0 0 1rem;
+}
+
+section.footer > header::before {
+  content: none;
+}
+
+article.sn > .article-body h1,
+article.sn > .article-body h2,
+article.sn > .article-body h3,
+article.sn > .article-body h4 {
+  border-bottom: 1px solid #eee;
+}
+
+article.sn > .article-body h1 {
+  font-size: 2rem;
+  line-height: 2.75rem;
+}
+
+article.sn > .article-body h3 {
+  border-left: none;
+}
+
+/* Blog sidebar */
+section.sidebar > header {
+  letter-spacing: inherit;
+  text-align: inherit;
+}
+
+article.lism {
+  margin: .75rem 0;
+}
+
+article.lism a {
+  display: flex;
+  align-items: flex-start;
+}
+
+article.lism .thumb {
+  min-width: 5rem;
+  float: none;
+}
+
+article.lism .inner {
+  height: auto;
+  padding: .937rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+article.lism .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Blog tags cloud */
+.terms a {
+  background-color: #563d7c;
+}
+
+/* Terms page */
+.page-title::after {
+  border-bottom: 2px solid rgba(0, 0, 0, .07);
+}
+
+.page-title > .subtitle {
+  margin-top: .5rem;
+}
+
+/* Utility */
+.inline-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+}
+
+.inline-list li + li {
+  margin-left: .5rem;
+}
+
+.inline-list a {
+  color: #999;
+}
+
+.inline-list a:hover,
+.inline-list a:focus {
+  color: #444;
+}
+
+.inline-list .active,
+.inline-list .active:hover,
+.inline-list .active:focus {
+  display: inline-block;
+  padding: .25rem .5rem;
+  border-radius: .25rem;
+  background: #448aff;
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  padding: 0 24px;
+  height: 36px;
+  font-size: .875rem;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.button--preview {
+  color: #1b95e0;
+  border: 1px solid;
+}
+
+.button--purchase {
+  background-color: #1b95e0;
+  color: #fff;
+  border: 1px solid #1b95e0;
+}
