@@ -1,4 +1,4 @@
-{{ define "title" }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ end }}
+{{ define "title" }}{{ if not .IsHome }}{{ .Title }} themes and templates - {{ end }}{{ end }}
 
 {{ define "main" }}
 <div class="mrow">
@@ -6,8 +6,8 @@
 
     {{ if not .IsHome }}
     <header class="page-title">
-      <h1 class="title">{{ .Title }}</h1>
-      {{ if eq .Kind "taxonomy" }}
+      <h1 class="title">Best {{ .Title }} themes and templates {{ now.Format "2006" }}</h1>
+      {{ if or (eq .Kind "taxonomy") (eq .Kind "section") }}
       <div class="subtitle">{{ .Content }}</div>
       {{ end }}
     </header>
@@ -15,10 +15,8 @@
 
     <div class="articles">
       <div class="mrow">
-        {{ $templates := .Site.GetPage "section" "admin-templates" }}
-
         {{ range (.Paginate .Data.Pages).Pages }}
-          {{ if or (eq .Section "admin-templates") (eq .Section "ecommerce-templates") (eq .Section "website-templates") }}
+          {{ if or (eq .Section "admin-templates") (eq .Section "ecommerce-templates") (eq .Section "website-templates") (eq .Section "wordpress-themes") }}
             <div class="mcol c6">{{ .Render "li" }}</div>
           {{end}}
         {{ end }}

@@ -1,8 +1,12 @@
 +++
 date = "2018-04-01"
 title = "Velonic Admin Dashboard Template + Frontend"
+short_title = "Velonic"
 tags = ["Admin dashboard", "Bootstrap", "Multipage", "Web app"]
-thumbnail = "velonic-admin.png"
+thumbnail = "velonic-bootstrap-admin-template.png"
+market = "ThemeHunt"
+theme_url = "http://themehunt.com/item/1525168?ref=rustheme"
+theme_preview_url = "http://themehunt.com/item/1525168/preview?ref=rustheme"
 +++
 
 Velonic is a full-featured premium admin dashboard template built on top of awesome Bootstrap 3.3.6, modern web technology HTML5, CSS3 and jQuery.
@@ -61,6 +65,3 @@ It has many ready to use hand crafted components. The theme is fully responsive 
 - 404 Alt
 - 500 Error
 - Email Template
-
-{{< button "preview" "1525168" "View demo" >}}
-{{< button "purchase" "1525168" "Get template" >}}

@@ -1,11 +1,15 @@
 +++
 date = "2018-04-01"
-title = "Repute Multipurpose Business Template"
+title = "Repute Multipurpose Business Theme"
+short_title = "Repute"
 tags = ["Bootstrap", "Blog", "Business", "Corporate", "Multipage", "Responsive"]
-thumbnail = "repute-website.png"
+thumbnail = "repute-bootstrap-template.png"
+market = "ThemeHunt"
+theme_url = "https://themehunt.com/item/1525218?ref=rustheme"
+theme_preview_url = "https://themehunt.com/item/1525218/preview?ref=rustheme"
 +++
 
-Repute is a multipurpose website template based on Bootstrap framework. It's one of the most popular Bootstrap template on Themehunt.
+Repute is a multipurpose website template based on Bootstrap framework. It's one of the most popular Bootstrap template on ThemeHunt.
 
 Repute provides many options and features to fulfill your website requirements. With on-going development, Repute will have additional options and features in every release update, for free. Repute is easy to customize since it's built with developer-friendly and is clean-coded in mind.
 
@@ -44,6 +48,3 @@ Repute provides many options and features to fulfill your website requirements. 
 - Easy to customize
 - Free support and updates
 - Extensive documentation
-
-{{< button "preview" "1525218" "View demo" >}}
-{{< button "purchase" "1525218" "Get template" >}}

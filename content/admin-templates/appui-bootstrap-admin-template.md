@@ -1,8 +1,12 @@
 +++
-date = "2018-04-01"
+date = "2018-04-03"
 title = "AppUI Admin Dashboard Template + Frontend"
-tags = ["Admin dashboard", "Bootstrap", "Material Design", "Responsive", "Web app"]
-thumbnail = "appui-admin.png"
+short_title = "AppUI"
+tags = ["Admin dashboard", "Bootstrap", "Responsive", "Web app"]
+thumbnail = "appui-bootstrap-admin-template.png"
+market = "ThemeHunt"
+theme_url = "http://themehunt.com/item/1525731?ref=rustheme"
+theme_preview_url = "http://themehunt.com/item/1525731/preview?ref=rustheme"
 +++
 
 AppUI is a professional Bootstrap template which combines simple yet beautiful design and powerful features.
@@ -18,6 +22,3 @@ This is a second most popular and one of the top-rated admin dashboard template 
 - Gulp tasks
 - Font Awesome and Ionicons icon fonts
 - Google fonts
-
-{{< button "preview" "1525731" "View demo" >}}
-{{< button "purchase" "1525731" "Get template" >}}

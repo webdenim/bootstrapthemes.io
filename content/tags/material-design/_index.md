@@ -1,5 +1,5 @@
 +++
-title = "Best Material Design themes and templates"
+title = "Material Design"
 +++
 
 [Material Design](https://en.wikipedia.org/wiki/Material_Design) is a unified language

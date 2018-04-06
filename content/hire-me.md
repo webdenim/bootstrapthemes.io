@@ -18,5 +18,4 @@ I can make any type of job related to the web and the web content:
 - Content proof-reading.
 - Content translation.
 
-These tasks are available at the Russian freelance marketplace [Kwork](https://kwork.ru/user/rstmgrv).
-If you have questions, feel free to [contact me](/contact/).
+For any questions, feel free to contact me via email: contact[at]rustemgareev[dot]com.

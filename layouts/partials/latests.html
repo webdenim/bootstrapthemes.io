@@ -1,12 +1,10 @@
+{{ range $section, $taxonomy := .Site.Sections }}
 <section class="sidebar">
-  <header>LATEST</header>
-  <div>
-    <div class="articles sm">
-      {{ range $i, $p := (first 10 .Site.RegularPages) }}
-        {{ if or (eq .Section "admin-templates") (eq .Section "ecommerce-templates") (eq .Section "website-templates") }}
-          {{ .Render "li_sm" }}
-        {{ end }}
-      {{ end }}
-    </div>
-  </div>
+  <header class="sidebar__title"><a class="sidebar__more-link" href="{{ .Permalink }}">Latest {{ .Title }} templates</a></header>
+  <ul class="articles sm">
+    {{ range (first 5 $taxonomy.Pages) }}
+    {{ .Render "li_sm" }}
+    {{ end }}
+  </ul>
 </section>
+{{ end }}

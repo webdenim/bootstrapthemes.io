@@ -1,5 +1,5 @@
 +++
-title = "Website templates"
+title = "HTML5 website"
 +++
 
-Website templates...
+Find out the best free and premium Bootstrap website templates made with HTML and CSS.

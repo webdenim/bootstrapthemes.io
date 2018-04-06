@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116688987-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-116688987-1');
-    </script>
+    {{ partial "analytics.html" . }}
+    <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ if gt (len .Summary) 160 }}{{ slicestr .Summary 0 160 }}{{ else }}{{ .Summary }}{{ end }}">
     {{ partial "meta.html" . }}
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
     {{ block "meta" . }}{{ end }}
     <style>
       {{ replaceRE " +" " " (replaceRE "\n" "" (partial "styles.css" .)) | safeCSS }}
@@ -29,7 +23,10 @@
     <header class="l-header">
       <div class="l-container">
         <div class="logo">
-          <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+          <a class="logo-link" href="{{ .Site.BaseURL }}">
+            <span class="logo-icon" aria-hidden="true">B</span>
+            {{ .Site.Title }}
+          </a>
         </div>
         {{ partial "description.html" . }}
       </div>

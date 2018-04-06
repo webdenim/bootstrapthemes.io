@@ -1,8 +1,12 @@
 +++
 date = "2018-04-01"
 title = "Bizcraft Bootstrap HTML5 Template"
-tags = ["Business", "Corporate", "Multipage", "Multipurpose", "Onepage", "Responsive"]
-thumbnail = "bizcraft-website.png"
+short_title = "Bizcraft"
+tags = ["Bootstrap", "Business", "Corporate", "Multipage", "Multipurpose", "Onepage", "Responsive"]
+thumbnail = "bizcraft-bootstrap-template.png"
+market = "ThemeHunt"
+theme_url = "https://themehunt.com/item/1525010?ref=rustheme"
+theme_preview_url = "https://themehunt.com/item/1525010/preview?ref=rustheme"
 +++
 
 BizCraft is a stylish, modern and client needs-oriented HTML template built with clean and valid HTML5 and CSS3 code.
@@ -28,6 +32,3 @@ BizCraft is based on Bootstrap 3 framework. This template can be used for any ki
 - Google Web Fonts Lato and JaapokkiRegular
 - Documentation
 - Easy to customize and user-friendly
-
-{{< button "preview" "1525010" "View demo" >}}
-{{< button "purchase" "1525010" "Get template" >}}

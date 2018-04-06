@@ -1,0 +1,10 @@
+<section class="sidebar">
+  <header class="sidebar__title">
+    <a class="sidebar__more-link" href="/tags/">{{ .key | upper }}</a>
+  </header>
+  <div>
+    <ul class="terms">
+      {{ range $key, $value := first 10 .value.ByCount }}<li><a href="{{ $.baseurl}}{{ $.key }}/{{ .Name | urlize }}">{{ .Name }} <span class="count">({{ $value.Count }})</span></a></li>{{ end }}
+    </ul>
+  </div>
+</section>
