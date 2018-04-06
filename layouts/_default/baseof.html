@@ -5,6 +5,7 @@
     <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ if gt (len .Summary) 160 }}{{ slicestr .Summary 0 160 }}{{ else }}{{ .Summary }}{{ end }}">
     {{ partial "meta.html" . }}
+    <meta name="yandex-verification" content="845b85493a80c16f">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     {{ block "meta" . }}{{ end }}
     <style>
