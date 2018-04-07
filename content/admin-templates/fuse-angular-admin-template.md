@@ -44,6 +44,3 @@ Fuse includes 4 in 1 bundle:
 - Pricing
 - FAQ
 - Knowledge Base
-
-https://themeforest.net/item/fuse-angularjs-material-design-admin-template/12931855
-https://themeforest.net/item/fuse-angularjs-material-design-admin-template/12931855
