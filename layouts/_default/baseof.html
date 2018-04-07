@@ -6,7 +6,8 @@
     <meta name="description" content="{{ if gt (len .Summary) 160 }}{{ slicestr .Summary 0 160 }}{{ else }}{{ .Summary }}{{ end }}">
     {{ partial "meta.html" . }}
     <meta name="yandex-verification" content="845b85493a80c16f">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     {{ block "meta" . }}{{ end }}
     <style>
       {{ replaceRE " +" " " (replaceRE "\n" "" (partial "styles.css" .)) | safeCSS }}
@@ -43,7 +44,7 @@
       <div class="l-container">
         <ul class="inline-list">
           <li>
-            {{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; {{ .Site.Title }}</span>{{ end }}
+            {{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; Webdenim</span>{{ end }}
           </li>
           <li>
             <a href="/about/">About</a>

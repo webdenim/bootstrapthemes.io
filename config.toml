@@ -1,6 +1,6 @@
 baseURL = "https://www.bootstrapthemes.io/"
 languageCode = "en-us"
-title = "Bootstrap Themes.io"
+title = "Bootstrap Themes"
 theme = "hugo_theme_robust"
 
 [permalinks]
