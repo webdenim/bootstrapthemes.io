@@ -3,7 +3,7 @@
   <head>
     {{ partial "analytics.html" . }}
     <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
-    <meta name="description" content="{{ if gt (len .Summary) 160 }}{{ slicestr .Summary 0 160 }}{{ else }}{{ .Summary }}{{ end }}">
+    <meta name="description" content="{{ if gt (len .Summary) 160 }}{{ slicestr .Summary 0 160 }}{{ else if gt (len .Summary) 0 }}{{ .Summary }}{{ else }}Free and premium Bootstrap templates and WordPress themes.{{ end }}">
     {{ partial "meta.html" . }}
     <meta name="yandex-verification" content="845b85493a80c16f">
     <link rel="shortcut icon" href="/favicon.png">
