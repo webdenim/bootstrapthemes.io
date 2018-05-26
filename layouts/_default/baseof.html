@@ -44,7 +44,7 @@
       <div class="l-container">
         <ul class="inline-list">
           <li>
-            <a href="https://www.webdenim.io/" target="_blank" aria-label="Webdenim">{{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; Webdenim</span>{{ end }}</a>
+            {{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; Webdenim</span>{{ end }}
           </li>
           <li>
             <a href="/about/">About</a>
