@@ -30,5 +30,5 @@ HUGO_VERSION = "0.38"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/*"
+  from = "*"
   to = "https://www.webdenim.io"
