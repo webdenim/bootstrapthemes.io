@@ -1,4 +1,4 @@
-baseURL = "https://www.bootstrapthemes.io/"
+baseURL = "https://bootstrapthemes.netlify.com/"
 languageCode = "en-us"
 title = "Bootstrap Themes"
 theme = "hugo_theme_robust"
